@@ -1,0 +1,14 @@
+body{
+    font-family: 'Varela Round', sans-serif;
+    margin: 0px;
+}
+
+.logo{
+    left: 10vw;
+    top: 1vh;
+}
+
+.navbar{
+    list-style: none;
+    text-decoration: none;
+}
