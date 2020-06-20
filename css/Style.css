@@ -1,14 +1,49 @@
+/*general page style*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 body{
     font-family: 'Varela Round', sans-serif;
-    margin: 0px;
 }
 
-.logo{
-    left: 10vw;
-    top: 1vh;
+.container{
+    margin: auto;
+    width: 80%;
 }
 
-.navbar{
+.clear{
+    clear: both;
+}
+
+/* header */
+.header{
+    background-color: indigo;
+}
+
+.header .logo{
+    width: 40%;
+    background-color: red;
+    float: left;
+}
+.header .logo img{
+    width: 25%;
+}
+
+.header .navbar{
+    width: 60%;
+    float: left;
+    background-color: green;
     list-style: none;
+}
+.header .navbar li{
+    display: inline-block;
+}
+.header .navbar li a{
     text-decoration: none;
+    color: black;
+    display: block;
+    padding: 2vh 1vw;
 }
