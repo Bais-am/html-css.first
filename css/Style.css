@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-body{
+body, button{
     font-family: 'Varela Round', sans-serif;
 }
 
@@ -20,16 +20,28 @@ body{
     height: 100%;
     top: 0px;
     left: 0px;
-    background-color: rgba(0,0,0,.5);
+    background-color: rgba(28, 30, 32, 0.7);
 }
 
 .clear{
     clear: both;
 }
 
+h1, h2, h3, h4, h5, h6{
+    font-family: montserrat,sans-serif;
+}
+
+.hover-opacity:hover{
+    opacity: .8;
+    transition: .25s;
+}
+
 /* header */
 .header{
-    background-color: grey;
+    background-color: rgba(255, 255, 255, 0);
+    position: fixed;
+    z-index: 10;
+    width: 100%;
 }
 
 .header .logo{
@@ -37,22 +49,28 @@ body{
     float: left;
 }
 .header .logo img{
-    width: 25%;
+    width: 20%;
+    margin-top: 2vh;
 }
 
 .header .navbar{
     width: 60%;
     float: left;
     list-style: none;
+    text-align: right;
+    margin: 0px;
 }
 .header .navbar li{
     display: inline-block;
+    margin-top: 2vh;
+    text-align: center;
+    width: 70px;
 }
 .header .navbar li a{
     text-decoration: none;
-    color: black;
+    color: white;
     display: block;
-    padding: 2vh .5vw;
+    padding: 1vh 0vw;
 }
 
 /*home*/
@@ -67,8 +85,42 @@ body{
 
 .home-content{
     position: absolute;
+    width: 60%;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
+}
+
+.home-title{
+    text-transform: uppercase;
+    color: white;
+    font-size: 3.5rem;
+}
+
+.home-desc{
+    margin: 1vh 0px;
+    color: white;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+
+.btn{
+    width: 10vw;
+    padding: 1.5vh 0px;
+    border-radius: 5px;
+    border: 0px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.btn-start{
+    background-color: #ffff;
+    text-transform: capitalize;
+}
+
+.btn-more{
+    background-color: #6195ff;
+    margin-left: 6px;
+    color: white;
 }
