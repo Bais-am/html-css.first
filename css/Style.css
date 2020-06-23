@@ -73,6 +73,27 @@ h1, h2, h3, h4, h5, h6{
     padding: 1vh 0vw;
 }
 
+.header .navbar li a:after,
+.header .navbar li a.active:after{
+    content: "";
+    background-color: #6195ff;
+    display: block;
+    height: .5vh;
+    transition: width .5s;
+}
+
+.header .navbar li a:after{
+    width: 0%;
+}
+
+.header .navbar li a.active:after{
+    width: 100%;
+}
+
+.header .navbar li a:hover:after{
+    width: 100%;
+}
+
 /*home*/
 .home{
     width: 100vw;
