@@ -45,16 +45,16 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .header .logo{
-    width: 40%;
+    width: 10%;
     float: left;
 }
 .header .logo img{
-    width: 20%;
+    width: 80%;
     margin-top: 2vh;
 }
 
 .header .navbar{
-    width: 60%;
+    width: 90%;
     float: left;
     list-style: none;
     text-align: right;
@@ -127,7 +127,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .btn{
-    width: 10vw;
+    width: 35%;
     padding: 1.5vh 0px;
     border-radius: 5px;
     border: 0px;
