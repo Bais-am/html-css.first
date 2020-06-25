@@ -36,6 +36,30 @@ h1, h2, h3, h4, h5, h6{
     transition: .25s;
 }
 
+.section-header{
+    text-align: center;
+}
+
+.section-title{
+    text-transform: capitalize;
+    margin-bottom: 1vh;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.underline{
+    display: inline-block;
+    margin: auto;
+    margin-bottom: 10vh;
+    height: .6vh;
+    width: 3vw;
+    background-color: rgb(196, 32, 32);
+}
+
+.pad-y{
+    padding: 8vh 0vw;
+}
+
 /* header */
 .header{
     background-color: rgba(255, 255, 255, 0);
